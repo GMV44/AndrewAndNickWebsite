@@ -1,21 +1,21 @@
-main {
-    padding: 120px 45% 80px 100px;
-}
-
-/* MAIN SECTION HEADING AND ABOUT FLEX */
-.bio {
-    display: flex;
-    flex-direction: column;
+.navbar,
+.list-items {
     height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.bio h2 {
-    font-size: 4em;
-    margin: 0;
-    padding: 20% 0 20px 0;
-
+.list-items a {
+    font-size: larger;
+    text-decoration: none;
+    color: #FCFCFC;
+    text-transform: uppercase;
 }
-.bio p {
-    font-size: 26px;
-    padding: 40px 0 0 0;
+
+#logo {
+    height: 200px;
+    width: 300px;
+    border-radius: 100%;
 }
