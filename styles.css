@@ -1,3 +1,4 @@
+/* nav bar and nav item flex box */
 .navbar,
 .list-items {
     height: 100%;
@@ -7,15 +8,24 @@
     align-items: center;
 }
 
+/* individual item properties! */
 .list-items a {
-    font-size: larger;
+    font-size: 14px;
     text-decoration: none;
     color: #FCFCFC;
     text-transform: uppercase;
 }
 
+/* hover properties for nav */
+.list-items a:hover {
+    color: #5D737E;
+    text-decoration: overline;
+    font-weight: bold;
+}
+
 #logo {
-    height: 200px;
-    width: 300px;
+    align-self: auto;
+    height: 180px;
+    width: 250px;
     border-radius: 100%;
 }

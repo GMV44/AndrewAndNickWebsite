@@ -52,3 +52,31 @@ footer {
     justify-content: center;
     text-align: center;
 }
+
+
+/* MEDIA QUERIES */
+
+@media (max-width: 400px) {
+    .navbar .list-items {
+        font-size: 10px;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 600px) {
+    .navbar .list-items {
+        font-size: 10px;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 850px) {
+    .navbar .list-items {
+        font-size: 10px;
+    }
+   .list-items a {
+        flex-shrink: 1;
+    }
+}
