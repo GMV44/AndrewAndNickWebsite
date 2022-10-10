@@ -1,0 +1,21 @@
+main {
+    padding: 120px 45% 80px 100px;
+}
+
+/* MAIN SECTION HEADING AND ABOUT FLEX */
+.bio {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.bio h2 {
+    font-size: 4em;
+    margin: 0;
+    padding: 20% 0 20px 0;
+
+}
+.bio p {
+    font-size: 26px;
+    padding: 40px 0 0 0;
+}
